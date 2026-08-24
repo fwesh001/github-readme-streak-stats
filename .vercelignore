@@ -19,10 +19,7 @@ docker_tag
 # IDE
 .vscode/
 
-# Not deployed: demo site and its auxiliary endpoints (stays under Vercel Hobby
-# plan's 12 serverless function limit). The stats card endpoint (index.php with
-# stats.php and card.php) is unaffected.
+# Not deployed: demo site (keeps the deployment at or under Vercel Hobby plan's
+# 12 serverless function limit). The stats card endpoint (index.php with
+# stats.php, card.php, themes.php, colors.php and translations.php) is unaffected.
 api/demo/
-api/colors.php
-api/themes.php
-api/translations.php
